@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ButtonClose" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+	<data name="ButtonDeletePreset" xml:space="preserve">
+    <value>DeleteTörlés</value>
+  </data>
+	<data name="ButtonEditSelectedItem" xml:space="preserve">
+    <value>Elem szerkesztése</value>
+  </data>
+	<data name="ButtonExit" xml:space="preserve">
+    <value>Mentés és kilépés</value>
+  </data>
+	<data name="ButtonOpenBatchFolder" xml:space="preserve">
+    <value>➔ Kötegelt mappa</value>
+  </data>
+	<data name="ButtonOpenProjectFile" xml:space="preserve">
+    <value>➔ Projektfájl</value>
+  </data>
+	<data name="ButtonOpenVideoFile" xml:space="preserve">
+    <value>➔ Egyetlen fájl</value>
+  </data>
+	<data name="ButtonRemoveSelectedQueueItem" xml:space="preserve">
+    <value>Elem eltávolítása</value>
+  </data>
+	<data name="ButtonResetBGImage" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+	<data name="ButtonSavePreset" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+	<data name="ButtonSelectBGImage" xml:space="preserve">
+    <value>Kiválaszt</value>
+  </data>
+	<data name="ButtonSetPresetDefault" xml:space="preserve">
+    <value>Beállítás alapértelmezettként</value>
+  </data>
+	<data name="ButtonTestSettings" xml:space="preserve">
+    <value>Tesztbeállítások</value>
+  </data>
+	<data name="ButtonUpdater" xml:space="preserve">
+    <value>Frissítő</value>
+  </data>
+	<data name="CheckBoxCustomVideoSettings" xml:space="preserve">
+    <value>Egyéni beállítások</value>
+  </data>
+	<data name="CheckBoxRealTimeMode" xml:space="preserve">
+    <value>Valós idejű mód</value>
+  </data>
+	<data name="CheckBoxTwoPassEncoding" xml:space="preserve">
+    <value>2 menetes kódolás</value>
+  </data>
+	<data name="Error" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+	<data name="GroupBoxBackroundImage" xml:space="preserve">
+    <value>Háttérkép</value>
+  </data>
+	<data name="GroupBoxCrop" xml:space="preserve">
+    <value>Képkivágás</value>
+  </data>
+	<data name="GroupBoxCurrentSettings" xml:space="preserve">
+    <value>Jelenlegi kódolási beállítások</value>
+  </data>
+	<data name="GroupBoxDeinterlace" xml:space="preserve">
+    <value>Átlapolás-mentesítés</value>
+  </data>
+	<data name="GroupBoxInputOutput" xml:space="preserve">
+    <value>Bemenet / Kimenet</value>
+  </data>
+	<data name="GroupBoxLanguage" xml:space="preserve">
+    <value>Nyelv:</value>
+    <comment>Other Languages MUST use "&lt;Lang&gt; (Language)"</comment>
+  </data>
+	<data name="GroupBoxOptimization" xml:space="preserve">
+    <value>Optimalizálás</value>
+  </data>
+	<data name="GroupBoxPresets" xml:space="preserve">
+    <value>Előbeállítások</value>
+  </data>
+	<data name="GroupBoxQuality" xml:space="preserve">
+    <value>Minőség</value>
+  </data>
+	<data name="GroupBoxResize" xml:space="preserve">
+    <value>Átméretezés</value>
+  </data>
+	<data name="GroupBoxRotate" xml:space="preserve">
+    <value>Forgatás</value>
+  </data>
+	<data name="GroupBoxThemeSettings" xml:space="preserve">
+    <value>Téma beállításai</value>
+  </data>
+	<data name="GroupBoxVideoContainer" xml:space="preserve">
+    <value>Videó tároló</value>
+  </data>
+	<data name="GroupBoxVideoInformation" xml:space="preserve">
+    <value>Videó információ</value>
+  </data>
+	<data name="GroupBoxWorkersAndSplitting" xml:space="preserve">
+    <value>Feladatvégzők és megosztás</value>
+  </data>
+	<data name="HDRSettings" xml:space="preserve">
+    <value>HDR beállítások</value>
+  </data>
+	<data name="LabelAccentTheme" xml:space="preserve">
+    <value>Kiemelő téma:</value>
+  </data>
+	<data name="LabelAddToQueue" xml:space="preserve">
+    <value>Hozzáadás a várólistához</value>
+  </data>
+	<data name="LabelAvailableBatchFilename" xml:space="preserve">
+    <value>{fájlnév} = Bemeneti fájlnév</value>
+  </data>
+	<data name="LabelAvailableBatchPresetName" xml:space="preserve">
+    <value>{előbeállításnév} = Az előbeállítás neve</value>
+  </data>
+	<data name="LabelBaseTheme" xml:space="preserve">
+    <value>Alap téma:</value>
+  </data>
+	<data name="LabelBatchFileName" xml:space="preserve">
+    <value>Kötegelt fájlnév:</value>
+  </data>
+	<data name="LabelBitDepth" xml:space="preserve">
+    <value>Bitmélység:</value>
+  </data>
+	<data name="LabelBitrate" xml:space="preserve">
+    <value>Bitsebesség (kbps):</value>
+  </data>
+	<data name="LabelBitrateAvg" xml:space="preserve">
+    <value>Bitsebesség (avg):</value>
+  </data>
+	<data name="LabelBitrateMax" xml:space="preserve">
+    <value>Bitsebesség (max):</value>
+  </data>
+	<data name="LabelBitrateMin" xml:space="preserve">
+    <value>Bitsebesség (min):</value>
+  </data>
+	<data name="LabelBottom" xml:space="preserve">
+    <value>Lent</value>
+  </data>
+	<data name="LabelBuildsProvidedBy" xml:space="preserve">
+    <value>A jeremylee.sh által GPLv3 alatt biztosított buildek</value>
+  </data>
+	<data name="LabelBurnIn" xml:space="preserve">
+    <value>Ráégetés:</value>
+  </data>
+	<data name="LabelCancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+	<data name="LabelChannels" xml:space="preserve">
+    <value>Csatornák:</value>
+  </data>
+	<data name="LabelChunkLength" xml:space="preserve">
+    <value>Szakasz hossza (másodperc):</value>
+  </data>
+	<data name="LabelCodec" xml:space="preserve">
+    <value>Kódek:</value>
+  </data>
+	<data name="LabelColorFormat" xml:space="preserve">
+    <value>Színformátum:</value>
+  </data>
+	<data name="LabelContainer" xml:space="preserve">
+    <value>Tároló:</value>
+  </data>
+	<data name="LabelDefault" xml:space="preserve">
+    <value>Alapértelmezett:</value>
+  </data>
+	<data name="LabelDefaultAudioBehavior" xml:space="preserve">
+    <value>Alapértelmezett hangviselkedés</value>
+  </data>
+	<data name="LabelDefaultOutputLocation" xml:space="preserve">
+    <value>Alapértelmezett kimeneti hely</value>
+  </data>
+	<data name="LabelDeinterlace" xml:space="preserve">
+    <value>Átlapolás-mentesítés:</value>
+  </data>
+	<data name="LabelDestination" xml:space="preserve">
+    <value>Célhely:</value>
+  </data>
+	<data name="LabelEncoder" xml:space="preserve">
+    <value>Kódoló:</value>
+  </data>
+	<data name="LabelFramerate" xml:space="preserve">
+    <value>Képkockaszám:</value>
+  </data>
+	<data name="LabelHeight" xml:space="preserve">
+    <value>Magasság:</value>
+  </data>
+	<data name="LabelIcons" xml:space="preserve">
+    <value>Ikonok:</value>
+  </data>
+	<data name="LabelLanguage" xml:space="preserve">
+    <value>Nyelv:</value>
+  </data>
+	<data name="LabelLeft" xml:space="preserve">
+    <value>Bal</value>
+  </data>
+	<data name="LabelLength" xml:space="preserve">
+    <value>Hossz:</value>
+  </data>
+	<data name="LabelMethodOpeningSource" xml:space="preserve">
+    <value>Forrás megnyitásának módja.</value>
+  </data>
+	<data name="LabelNoAudioFound" xml:space="preserve">
+    <value>Nem található hang</value>
+  </data>
+	<data name="LabelNoSubtitleFound" xml:space="preserve">
+    <value>Nem található felirat</value>
+  </data>
+	<data name="LabelPreset" xml:space="preserve">
+    <value>Előbeállítás:</value>
+  </data>
+	<data name="LabelPresetName" xml:space="preserve">
+    <value>Előbeállítás neve:</value>
+  </data>
+	<data name="LabelProcessPriority" xml:space="preserve">
+    <value>Folyamat prioritása:</value>
+  </data>
+	<data name="LabelQualityMode" xml:space="preserve">
+    <value>Minőségi mód:</value>
+  </data>
+	<data name="LabelQuantizer" xml:space="preserve">
+    <value>Kvantáló:</value>
+  </data>
+	<data name="LabelReencodeMethod" xml:space="preserve">
+    <value>Újrakódolási mód:</value>
+  </data>
+	<data name="LabelResolution" xml:space="preserve">
+    <value>Felbontás:</value>
+  </data>
+	<data name="LabelRight" xml:space="preserve">
+    <value>Jobb</value>
+  </data>
+	<data name="LabelRotate" xml:space="preserve">
+    <value>Forgatás (jobbra):</value>
+  </data>
+	<data name="LabelScalingAlgorithm" xml:space="preserve">
+    <value>Algoritmus:</value>
+  </data>
+	<data name="LabelSelectPresetForEncoding" xml:space="preserve">
+    <value>Válassza ki a kódoláshoz az előbeállítást:</value>
+  </data>
+	<data name="LabelSource" xml:space="preserve">
+    <value>Forrás</value>
+  </data>
+	<data name="LabelSpeed" xml:space="preserve">
+    <value>Sebesség</value>
+  </data>
+	<data name="LabelSplittingMethod" xml:space="preserve">
+    <value>Felosztási mód:</value>
+  </data>
+	<data name="LabelStartPauseButton" xml:space="preserve">
+    <value>Indítás</value>
+  </data>
+	<data name="LabelStatus" xml:space="preserve">
+    <value>Állapot:</value>
+  </data>
+	<data name="LabelTempPath" xml:space="preserve">
+    <value>Ideiglenes könyvtár</value>
+  </data>
+	<data name="LabelTheme" xml:space="preserve">
+    <value>Téma:</value>
+  </data>
+	<data name="LabelThreshold" xml:space="preserve">
+    <value>Küszöb:</value>
+  </data>
+	<data name="LabelTop" xml:space="preserve">
+    <value>Fent</value>
+  </data>
+	<data name="LabelTrackName" xml:space="preserve">
+    <value>Sávnév:</value>
+  </data>
+	<data name="LabelVersion" xml:space="preserve">
+    <value>Verzió:</value>
+  </data>
+	<data name="LabelVideoDestination" xml:space="preserve">
+    <value>Nincs kijelölt célhely</value>
+  </data>
+	<data name="LabelVideoDestination1" xml:space="preserve">
+    <value>Célhely:</value>
+  </data>
+	<data name="LabelVideoSource" xml:space="preserve">
+    <value>Nincs kijelölt forráshely</value>
+  </data>
+	<data name="LabelVideoSource1" xml:space="preserve">
+    <value>Forrás:</value>
+  </data>
+	<data name="LabelWidth" xml:space="preserve">
+    <value>Szélesség:</value>
+  </data>
+	<data name="LabelWorkerCount" xml:space="preserve">
+    <value>Feladatok száma:</value>
+  </data>
+	<data name="MessageConstrainedBitrateAomenc" xml:space="preserve">
+    <value>A NEAV1E jelenleg nem támogatja a korlátozott bitsebességet (aomenc)</value>
+  </data>
+	<data name="MessageCreatePresetBeforeBatch" xml:space="preserve">
+    <value>Kérjük, a kötegelt fájlok hozzáadása előtt hozzon létre egy előbeállítást.</value>
+  </data>
+	<data name="MessageNoInput" xml:space="preserve">
+    <value>Bemenet nincs kiválasztva!</value>
+  </data>
+	<data name="MessageNoOutput" xml:space="preserve">
+    <value>Kimenet nincs kiválasztva!</value>
+  </data>
+	<data name="MessageQualityModeRav1eSVT" xml:space="preserve">
+    <value>A NEAV1E jelenleg csak az állandó minőséget vagy a bitsebesség módot (rav1e / svt-av1) támogatja.</value>
+  </data>
+	<data name="MessageQueueEmpty" xml:space="preserve">
+    <value>A várólista üres! \nKérem, vegye fel a feladatát a várólistára.</value>
+  </data>
+	<data name="Pause" xml:space="preserve">
+    <value>Szünet</value>
+  </data>
+	<data name="ProgramSettings" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+	<data name="Queue1stPass" xml:space="preserve">
+    <value>1. menet:</value>
+  </data>
+	<data name="Queue2ndPass" xml:space="preserve">
+    <value>2. menet:</value>
+  </data>
+	<data name="QueueMenuItemEdit" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+	<data name="QueueMenuItemOpenOutputDir" xml:space="preserve">
+    <value>Célhely megnyitása</value>
+  </data>
+	<data name="QueueMinLeft" xml:space="preserve">
+    <value>perc maradt</value>
+  </data>
+	<data name="Resume" xml:space="preserve">
+    <value>Folytatás</value>
+  </data>
+	<data name="TabItemAdvanced" xml:space="preserve">
+    <value>Speciális</value>
+  </data>
+	<data name="TabItemAudio" xml:space="preserve">
+    <value>Hang</value>
+  </data>
+	<data name="TabItemFilters" xml:space="preserve">
+    <value>Szűrők</value>
+  </data>
+	<data name="TabItemQueue" xml:space="preserve">
+    <value>Várólista</value>
+  </data>
+	<data name="TabItemSubtitles" xml:space="preserve">
+    <value>Feliratok</value>
+  </data>
+	<data name="TabItemSummary" xml:space="preserve">
+    <value>Összegzés</value>
+  </data>
+	<data name="TabItemVideo" xml:space="preserve">
+    <value>Videó</value>
+  </data>
+	<data name="TextBoxDestination" xml:space="preserve">
+    <value>Célhely nincs kijelölve</value>
+  </data>
+	<data name="ToggleSwitchActivateSubtitles" xml:space="preserve">
+    <value>Feliratok aktiválása</value>
+  </data>
+	<data name="ToggleSwitchAdvancedSettings" xml:space="preserve">
+    <value>Speciális beállítások</value>
+  </data>
+	<data name="ToggleSwitchAutoPauseResume" xml:space="preserve">
+    <value>Automatikus szünet / Folytatás</value>
+  </data>
+	<data name="ToggleSwitchAutoPauseResumeTooltip" xml:space="preserve">
+    <value>Automatikusan szünetelteti és folytatja a kódolást, ha a rendszer 1 percnél tovább tétlen</value>
+  </data>
+	<data name="ToggleSwitchDeleteTempFiles" xml:space="preserve">
+    <value>Ideiglenes fájlok törlése</value>
+  </data>
+	<data name="ToggleSwitchInputSeeking" xml:space="preserve">
+    <value>Bemenetkeresés használata</value>
+  </data>
+	<data name="ToggleSwitchLogging" xml:space="preserve">
+    <value>Naplózás</value>
+  </data>
+	<data name="ToggleSwitchClearQueue" xml:space="preserve">
+    <value>Várólista automatikus törlése</value>
+  </data>
+	<data name="ToggleSwitchOverrideWorkerCount" xml:space="preserve">
+    <value>Feladatszám felülírása</value>
+  </data>
+	<data name="ToggleSwitchShutdown" xml:space="preserve">
+    <value>Leállítás a kódolás után</value>
+  </data>
+	<data name="ToggleSwitchUsePresetBitDepth" xml:space="preserve">
+    <value>Használja az előre beállított bitmélységet?</value>
+  </data>
+	<data name="7ZipNotDetectedTitle" xml:space="preserve">
+    <value>7-zip nem található!</value>
+  </data>
+	<data name="7ZipNotDetectedMessage" xml:space="preserve">
+    <value>Úgy tűnik, a 7-zip nincs letöltve.
+
+Töltse le és csomagolja ki a 7-zip fájlt a következő elérési útra:
+
+</value>
+  </data>
+	<data name="ErrorsDetected" xml:space="preserve">
+    <value>Hiba(k) észlelve. Kérjük, ellenőrizze a naplófájlt! Az ideiglenes fájlok nem lettek törölve!</value>
+  </data>
+	<data name="OutputErrorDetected" xml:space="preserve">
+    <value>Hiba: Kimenet nem található</value>
+  </data>
+	<data name="MuxingErrorDetected" xml:space="preserve">
+    <value>Lehetséges keverési hiba</value>
+  </data>
+	<data name="DeleteErrorDetected" xml:space="preserve">
+    <value>Hiba a Temp fájlok törlésekor</value>
+  </data>
+	<data name="FinishedEncoding" xml:space="preserve">
+    <value>Kódolás befejezve - eltelt idő</value>
+  </data>
+	<data name="MessageSameInputOutput" xml:space="preserve">
+    <value>A bemeneti és kimeneti útvonal ugyanaz!</value>
+  </data>
+	<data name="MessageAlreadyRunning" xml:space="preserve">
+    <value>Az alkalmazás egy példánya már fut.</value>
+  </data>
+	<data name="AudioTracksImport" xml:space="preserve">
+    <value>Importálás</value>
+  </data>
+	<data name="ButtonClearQueue" xml:space="preserve">
+    <value>Várólista törlése</value>
+  </data>
+	<data name="CloseQuestion" xml:space="preserve">
+    <value>A program még nem végzett! Biztos, hogy ki akarsz lépni?</value>
+  </data>
+	<data name="SortByFramecountAsc" xml:space="preserve">
+    <value>Rendezés keretszám szerint (növekvő)</value>
+  </data>
+	<data name="SortByFramecountDesc" xml:space="preserve">
+    <value>Rendezés keretszám szerint (csökkenő)</value>
+  </data>
+	<data name="SortByNewest" xml:space="preserve">
+    <value>Rendezés; Legújabbak szerint</value>
+  </data>
+	<data name="SortByOldest" xml:space="preserve">
+    <value>Rendezés; Legrégebbiek szerint</value>
+  </data>
+	<data name="SortByOutNameAsc" xml:space="preserve">
+    <value>Rendezés kimeneti név szerint (növekvő)</value>
+  </data>
+	<data name="SortByOutNameDesc" xml:space="preserve">
+    <value>Rendezés kimeneti név szerint (csökkenő)</value>
+  </data>
+	<data name="ToggleSwitchBatchSubFolders" xml:space="preserve">
+    <value>Almappák hozzáadása kötegelt módban</value>
+  </data>
+	<data name="ToggleSwitchMirrorFolderStructure" xml:space="preserve">
+    <value>Tükör mappaszerkezet</value>
+  </data>
+	<data name="About" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+	<data name="Paths" xml:space="preserve">
+    <value>Útvonalak</value>
+  </data>
+	<data name="LabelTargetVMAF" xml:space="preserve">
+    <value>VMAF:</value>
+  </data>
+	<data name="LabelTargetVMAFProbes" xml:space="preserve">
+    <value>Szondák:</value>
+  </data>
+	<data name="LabelTargetVMAFMaxProbeLength" xml:space="preserve">
+    <value>Szonda hossza (mp):</value>
+  </data>
+	<data name="LabelTargetVMAFMaxQ" xml:space="preserve">
+    <value>Max. Q:</value>
+  </data>
+	<data name="LabelTargetVMAFMinQ" xml:space="preserve">
+    <value>Min. Q:</value>
+  </data>
+	<data name="SliderTargetVMAFMaxProbeLengthToolTip" xml:space="preserve">
+    <value>Maximális szondahossz másodpercben. Figyelmen kívül hagyja, ha maga a darab rövidebb.</value>
+  </data>
+	<data name="SliderTargetVMAFMaxQToolTip" xml:space="preserve">
+    <value>A lehető legalacsonyabb minőséget állítja be.</value>
+  </data>
+	<data name="SliderTargetVMAFMinQToolTip" xml:space="preserve">
+    <value>A lehető legjobb minőséget állítja be.</value>
+  </data>
+	<data name="SliderTargetVMAFProbesToolTip" xml:space="preserve">
+    <value>A célminőség megközelítésére tett próbálkozások maximális száma. A logika megpróbálja elkerülni, hogy a szükségesnél több próbálkozásra kerüljön sor. Minimum 2 szükséges, ez a 2 próbálkozás a Max Q és a Min Q alulról történő felhasználásával történik.</value>
+  </data>
+	<data name="ButtonCropAutoDetect" xml:space="preserve">
+    <value>Automatikus észlelés</value>
+  </data>
+	<data name="GroupBoxQueueParallel" xml:space="preserve">
+    <value>Párhuzamos feladat</value>
+  </data>
+	<data name="LabelQueueParallelWorkers" xml:space="preserve">
+    <value>Párhuzamos kódolások:</value>
+  </data>
+	<data name="TabItemChunking" xml:space="preserve">
+    <value>Felosztás</value>
+  </data>
+	<data name="GroupBoxModeDescription" xml:space="preserve">
+    <value>Leírás</value>
+  </data>
+	<data name="LabelModeDescription1" xml:space="preserve">
+    <value>1. Összevonás: 
+A videót darabokra osztjuk, és minden egyes darabot párhuzamosan kódolunk a megadott számú feldolgozóval. 
+A letiltáshoz állítsa a „Felosztási módszer” értékét „Letiltás” értékre, vagy állítsa a „Mód” értékét „Sorba állítás” értékre, és a „Párhuzamos kódolás” értékét 1-re. Nem érinti a várólistában lévő meglévő elemeket!</value>
+  </data>
+	<data name="LabelModeDescription2" xml:space="preserve">
+    <value>2. Várólista:
+A sorban lévő összes videót párhuzamosan dolgozza fel a „Párhuzamos kódolás” pontban megadott számú feldolgozóval.
+Ez felülírja az „Felosztás” módot, ezért a videó nem lesz darabokra osztva, még akkor sem, ha a „Mód” "Felosztás” volt beállítva, amikor a videót a várólistához adta.</value>
+  </data>
+	<data name="LabelModeDescription3" xml:space="preserve">
+    <value>3. Felosztás + Várólista: 
+Lehetővé teszi a várólista párhuzamos feldolgozását, és emellett a bemeneti videó darabolásának elvégzését az 1. pontban leírtak szerint.
+Legyen óvatos, hogy hány feldolgozót választ ki, mivel ez sok erőforrást fog igénybe venni.</value>
+  </data>
+</root>
